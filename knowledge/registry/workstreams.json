@@ -1,0 +1,177 @@
+[
+ {
+  "id": "R1",
+  "title": "Competitive intelligence",
+  "scope": "Analyze Designrr, ZebraLearn, Automateed, Canva, Reedsy, Atticus, Gumroad/Payhip and other relevant tools. Evidence: official feature/pricing pages, dated screenshots where lawful, support docs, reviews, demos.",
+  "validation": "Verify current prices and capabilities against primary sources; hands-on results only if actually tested.",
+  "owner": "researcher",
+  "status": "NOT_STARTED",
+  "outcome_path": "knowledge/01-research/r01-competitive-intelligence.md",
+  "outputs": [
+   "D2"
+  ],
+  "requires_claims": true,
+  "human_tasks": [],
+  "blockers": []
+ },
+ {
+  "id": "R2",
+  "title": "Ebook content and visual quality",
+  "scope": "What makes a paid educational ebook useful and professional: depth, exercises, diagrams, cover, hierarchy, typography, layout, accessibility, PDF/EPUB. Evidence: legally accessible samples, design guidelines, rendering experiments.",
+  "validation": "Human rubric review; do not claim access to paid books or copy proprietary layouts.",
+  "owner": "researcher",
+  "status": "NOT_STARTED",
+  "outcome_path": "knowledge/01-research/r02-ebook-quality.md",
+  "outputs": [
+   "D3"
+  ],
+  "requires_claims": true,
+  "human_tasks": [
+   {
+    "task": "Human review of the ebook quality rubric",
+    "done": false
+   }
+  ],
+  "blockers": []
+ },
+ {
+  "id": "R3",
+  "title": "Customer demand and niches",
+  "scope": "Buyer segments for ebooks and SaaS, jobs-to-be-done, demand, competing offers, objections, niche opportunities. Evidence: search intent, public demand signals, interviews only if actually conducted.",
+  "validation": "Do not equate search volume or AI opinion with willingness to pay.",
+  "owner": "researcher",
+  "status": "NOT_STARTED",
+  "outcome_path": "knowledge/01-research/r03-customer-demand.md",
+  "outputs": [
+   "D5",
+   "D9"
+  ],
+  "requires_claims": true,
+  "human_tasks": [],
+  "blockers": []
+ },
+ {
+  "id": "R4",
+  "title": "Sales and marketing",
+  "scope": "Landing pages, Meta/Instagram/Google ads, email funnels, previews, checkout, delivery, attribution, refunds, measurement. Evidence: platform policies, official docs, observed funnels.",
+  "validation": "Ad economics are assumptions until real campaigns give data; no ad spending.",
+  "owner": "researcher",
+  "status": "NOT_STARTED",
+  "outcome_path": "knowledge/01-research/r04-sales-marketing.md",
+  "outputs": [
+   "D5"
+  ],
+  "requires_claims": true,
+  "human_tasks": [],
+  "blockers": []
+ },
+ {
+  "id": "R5",
+  "title": "AI and technical feasibility",
+  "scope": "Structured ebook pipeline, model gateway, chapter generation, sources, editing, assets, PDF/EPUB, background jobs, retries, data model. Evidence: official SDK/framework docs, benchmarks, small approved prototypes in 01-research/poc/.",
+  "validation": "Runnable tests for key claims; label untested integrations as hypotheses.",
+  "owner": "researcher",
+  "status": "NOT_STARTED",
+  "outcome_path": "knowledge/01-research/r05-technical-feasibility.md",
+  "outputs": [
+   "D5",
+   "D7",
+   "D9"
+  ],
+  "requires_claims": true,
+  "human_tasks": [],
+  "blockers": []
+ },
+ {
+  "id": "R6",
+  "title": "Business and unit economics",
+  "scope": "Model ebook revenue and SaaS revenue separately: prices, AI tokens, GPU/API usage, fees, refunds, hosting, support, acquisition, margins.",
+  "validation": "Recalculate formulas independently; separate observed figures from illustrative values.",
+  "owner": "researcher",
+  "status": "NOT_STARTED",
+  "outcome_path": "knowledge/01-research/r06-unit-economics.md",
+  "outputs": [
+   "D4",
+   "D9"
+  ],
+  "requires_claims": true,
+  "human_tasks": [],
+  "blockers": []
+ },
+ {
+  "id": "R7",
+  "title": "Legal, trust and compliance",
+  "scope": "Copyright, AI authorship, source/image licenses, privacy, payments, tax, consumer refunds, platform ad policies, security. Evidence: authoritative laws, provider terms, platform policies.",
+  "validation": "Not professional legal advice; legal/security findings get elevated owner review.",
+  "owner": "researcher",
+  "status": "NOT_STARTED",
+  "outcome_path": "knowledge/01-research/r07-legal-compliance.md",
+  "outputs": [
+   "D7"
+  ],
+  "requires_claims": true,
+  "human_tasks": [
+   {
+    "task": "Owner review of the legal and compliance risk register",
+    "done": false
+   }
+  ],
+  "blockers": []
+ },
+ {
+  "id": "R8",
+  "title": "Agentic SDLC",
+  "scope": "Specification-first engineering, agent workflows, code review, tests, tool portability, multi-developer coordination. Evidence: user-provided references plus authoritative tool docs.",
+  "validation": "Separate opinions from verified tool capabilities; test automation locally.",
+  "owner": "researcher",
+  "status": "NOT_STARTED",
+  "outcome_path": "knowledge/01-research/r08-agentic-sdlc.md",
+  "outputs": [
+   "D8",
+   "D16",
+   "D18"
+  ],
+  "requires_claims": true,
+  "human_tasks": [],
+  "blockers": []
+ },
+ {
+  "id": "R9",
+  "title": "Research verification and QA",
+  "scope": "Verify consequential claims from R1-R8; track contradictions, freshness, source integrity, decision traceability.",
+  "validation": "A second AI review alone is NOT independent verification; block unsupported critical decisions.",
+  "owner": "verifier",
+  "status": "NOT_STARTED",
+  "outcome_path": "knowledge/01-research/r09-verification-qa.md",
+  "outputs": [
+   "D11",
+   "D12",
+   "D13"
+  ],
+  "requires_claims": false,
+  "human_tasks": [
+   {
+    "task": "Human spot-check of a sample of verified critical claims",
+    "done": false
+   }
+  ],
+  "blockers": []
+ },
+ {
+  "id": "R10",
+  "title": "Portable knowledge and agent collaboration",
+  "scope": "Two-repo contracts, hierarchical indexes, phase prompts, multi-agent task ownership, Git policies, progress gates, knowledge backporting.",
+  "validation": "Test missing links, false completion, stale references, task synchronization.",
+  "owner": "librarian",
+  "status": "NOT_STARTED",
+  "outcome_path": "knowledge/01-research/r10-portable-knowledge.md",
+  "outputs": [
+   "D14",
+   "D15",
+   "D17"
+  ],
+  "requires_claims": false,
+  "human_tasks": [],
+  "blockers": []
+ }
+]
