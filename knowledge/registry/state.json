@@ -3,5 +3,5 @@
   "date": "2026-11-15",
   "result": "PASS"
  },
- "next_action": "Owner reviews P00a gate result and writes approvals/P00a.md if satisfied."
+ "next_action": "Start P00b: plan research tracks R1-R8 (see phases/P00b.md)."
 }
