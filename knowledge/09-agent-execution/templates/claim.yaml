@@ -1,0 +1,3 @@
+# SUPERSEDED: claims are now JSON lines in knowledge/registry/claims.jsonl,
+# validated by schemas/claim.schema.json. Example line (one line in the file):
+# {"claim_id":"R1-CLM-001","workstream":"R1","critical":false,"claim":"...","source_url":"https://...","source_type":"official_documentation","published_at":null,"accessed_at":"2026-11-15","snapshot":null,"verification":"unverified","validation_method":"","confidence_rationale":"","contradictions":[],"implications":[],"reviewer":null}

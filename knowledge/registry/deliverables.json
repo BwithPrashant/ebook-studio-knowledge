@@ -1,0 +1,324 @@
+[
+ {
+  "id": "D1",
+  "title": "Executive research report",
+  "acceptance": "Findings, validated opportunities, uncertainties, recommended next decisions",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8",
+   "R9"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/01-research/d01-executive-research-report.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D2",
+  "title": "Competitor intelligence matrix",
+  "acceptance": "Dated feature/pricing comparison with sources and claim labels",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R1"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/01-research/d02-competitor-matrix.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D3",
+  "title": "Ebook quality benchmark",
+  "acceptance": "Content/design rubric, samples evaluated, export quality targets",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R2"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/01-research/d03-ebook-quality-benchmark.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D4",
+  "title": "Business model blueprint",
+  "acceptance": "Internal ebook sales and SaaS models; assumptions and economics (P00 draft)",
+  "required_maturity": "draft",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R3",
+   "R6"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/08-business/d04-business-model-blueprint.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D5",
+  "title": "Product requirements document",
+  "acceptance": "Personas, user journeys, FR/NFR, scope, acceptance criteria (P00 draft; P01 approval)",
+  "required_maturity": "draft",
+  "final_approval_phase": "P01",
+  "depends_on": [
+   "R3",
+   "R4",
+   "R5"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/02-product/d05-prd.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D6",
+  "title": "MVP scope and backlog",
+  "acceptance": "Prioritized epics, stories, dependencies, exclusions, acceptance criteria (P00 draft; P01 approval)",
+  "required_maturity": "draft",
+  "final_approval_phase": "P01",
+  "depends_on": [
+   "R3",
+   "R5"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/02-product/d06-mvp-backlog.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D7",
+  "title": "Technical architecture blueprint",
+  "acceptance": "Options, modules, data model, APIs, integrations, ADR candidates (P00 draft; P02 approval)",
+  "required_maturity": "draft",
+  "final_approval_phase": "P02",
+  "depends_on": [
+   "R5",
+   "R7"
+  ],
+  "owner": "architect",
+  "path": "knowledge/03-architecture/d07-technical-architecture.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D8",
+  "title": "Agentic development playbook",
+  "acceptance": "Spec-driven SDLC, agent responsibilities, reviews, commits",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R8"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/04-engineering/d08-agentic-dev-playbook.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D9",
+  "title": "Validation and experiment plan",
+  "acceptance": "Demand tests, technical POCs, thresholds, stop/go rules",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R3",
+   "R5",
+   "R6"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/01-research/d09-validation-experiment-plan.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D10",
+  "title": "Development roadmap",
+  "acceptance": "Sequenced phases, dependencies, risk and effort assumptions (P00 draft)",
+  "required_maturity": "draft",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R5",
+   "R8"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/05-delivery/d10-development-roadmap.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D11",
+  "title": "Research evidence register",
+  "acceptance": "Claim IDs, URL, dates, verification, confidence, contradictions (data in knowledge/registry/claims.jsonl)",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R9"
+  ],
+  "owner": "verifier",
+  "path": "knowledge/01-research/d11-evidence-register.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D12",
+  "title": "Research QA report",
+  "acceptance": "Checks, failures, corrections, coverage, outstanding critical issues",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R9"
+  ],
+  "owner": "verifier",
+  "path": "knowledge/06-quality/d12-research-qa-report.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D13",
+  "title": "Decision traceability matrix",
+  "acceptance": "Decision -> evidence IDs -> assumptions -> approval",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R9"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/01-research/d13-decision-traceability-matrix.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D14",
+  "title": "Phase prompt registry",
+  "acceptance": "Versioned P00-P05 contracts, I/O, prerequisites, gates, failures",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R10"
+  ],
+  "owner": "librarian",
+  "path": "knowledge/09-agent-execution/phases/REGISTRY.md",
+  "maturity": "draft",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D15",
+  "title": "Agent workflow library",
+  "acceptance": "Feature, bug, refactor, test, review, gap, backport, commit",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R10"
+  ],
+  "owner": "librarian",
+  "path": "knowledge/09-agent-execution/workflows/d15-agent-workflow-library.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D16",
+  "title": "Engineering design standards",
+  "acceptance": "SOLID/KISS/DRY/YAGNI, boundaries, security, maintainability",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R8"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/04-engineering/d16-design-standards.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D17",
+  "title": "Instruction governance",
+  "acceptance": "Ownership, versioning, review, testing, compatibility, change log",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R10"
+  ],
+  "owner": "librarian",
+  "path": "knowledge/00-governance/d17-instruction-governance.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ },
+ {
+  "id": "D18",
+  "title": "SDLC quality gates",
+  "acceptance": "Definition of Done, unit/integration/E2E/review/CI gates",
+  "required_maturity": "validated",
+  "final_approval_phase": "P00b",
+  "depends_on": [
+   "R8"
+  ],
+  "owner": "synthesizer",
+  "path": "knowledge/04-engineering/d18-sdlc-quality-gates.md",
+  "maturity": "placeholder",
+  "reviewer": null,
+  "evidence": [],
+  "validation_result": null,
+  "approval": null
+ }
+]

@@ -1,0 +1,51 @@
+[
+ {
+  "id": "P00a",
+  "title": "Knowledge bootstrap",
+  "status": "IN_PROGRESS",
+  "gate": "validator tests green; kbcheck gate P00a passes; human approval",
+  "contract": "knowledge/09-agent-execution/phases/P00a.md"
+ },
+ {
+  "id": "P00b",
+  "title": "Research execution (R1-R10, D1-D18)",
+  "status": "NOT_STARTED",
+  "gate": "kbcheck gate P00b passes; human approval",
+  "contract": "knowledge/09-agent-execution/phases/P00b.md"
+ },
+ {
+  "id": "P01",
+  "title": "Product strategy",
+  "status": "NOT_STARTED",
+  "gate": "PRD, personas, MVP backlog and acceptance criteria approved",
+  "contract": null
+ },
+ {
+  "id": "P02",
+  "title": "Architecture",
+  "status": "NOT_STARTED",
+  "gate": "ADRs, interfaces, schema, feasibility checks approved",
+  "contract": null
+ },
+ {
+  "id": "P03",
+  "title": "Implementation (walking skeleton, then vertical slices)",
+  "status": "NOT_STARTED",
+  "gate": "CI green per task; phase review",
+  "contract": null
+ },
+ {
+  "id": "P04",
+  "title": "Internal launch (Business A)",
+  "status": "NOT_STARTED",
+  "gate": "operational validation; launch approval",
+  "contract": null
+ },
+ {
+  "id": "P05",
+  "title": "SaaS beta (Business B)",
+  "status": "NOT_STARTED",
+  "gate": "tenant isolation and billing checks; reviewed rollout",
+  "contract": null
+ }
+]
