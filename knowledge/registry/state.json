@@ -1,4 +1,7 @@
 {
- "last_validation": null,
- "next_action": "Owner reviews P00a outputs, then flips P00a to READY_FOR_REVIEW after kbcheck gate P00a passes."
+ "last_validation": {
+  "date": "2026-11-15",
+  "result": "PASS"
+ },
+ "next_action": "Start P00b: plan research tracks R1-R8 (see phases/P00b.md)."
 }

@@ -2,7 +2,7 @@
  {
   "id": "P00a",
   "title": "Knowledge bootstrap",
-  "status": "IN_PROGRESS",
+  "status": "APPROVED",
   "gate": "validator tests green; kbcheck gate P00a passes; human approval",
   "contract": "knowledge/09-agent-execution/phases/P00a.md"
  },
