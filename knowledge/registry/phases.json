@@ -9,7 +9,7 @@
  {
   "id": "P00b",
   "title": "Research execution (R1-R10, D1-D18)",
-  "status": "NOT_STARTED",
+  "status": "IN_PROGRESS",
   "gate": "kbcheck gate P00b passes; human approval",
   "contract": "knowledge/09-agent-execution/phases/P00b.md"
  },
