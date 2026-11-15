@@ -1,0 +1,45 @@
+{
+ "$comment": "One item of knowledge/registry/phases.json",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "title",
+  "status",
+  "gate",
+  "contract"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^P0[0-5][ab]?$"
+  },
+  "title": {
+   "type": "string",
+   "minLength": 1
+  },
+  "status": {
+   "type": "string",
+   "enum": [
+    "NOT_STARTED",
+    "IN_PROGRESS",
+    "VALIDATION",
+    "READY_FOR_REVIEW",
+    "APPROVED",
+    "BLOCKED",
+    "CHANGES_REQUESTED"
+   ]
+  },
+  "gate": {
+   "type": "string",
+   "minLength": 1
+  },
+  "contract": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "pattern": "^knowledge/.*\\.md$"
+  }
+ }
+}

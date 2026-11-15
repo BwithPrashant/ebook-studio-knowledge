@@ -1,0 +1,103 @@
+{
+ "$comment": "One item of knowledge/registry/deliverables.json (D1-D18)",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "title",
+  "acceptance",
+  "required_maturity",
+  "final_approval_phase",
+  "depends_on",
+  "owner",
+  "path",
+  "maturity",
+  "reviewer",
+  "evidence",
+  "validation_result",
+  "approval"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^D([1-9]|1[0-8])$"
+  },
+  "title": {
+   "type": "string",
+   "minLength": 1
+  },
+  "acceptance": {
+   "type": "string",
+   "minLength": 1
+  },
+  "required_maturity": {
+   "type": "string",
+   "enum": [
+    "draft",
+    "validated"
+   ]
+  },
+  "final_approval_phase": {
+   "type": "string",
+   "enum": [
+    "P00b",
+    "P01",
+    "P02"
+   ]
+  },
+  "depends_on": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "pattern": "^R(10|[1-9])$"
+   }
+  },
+  "owner": {
+   "type": "string",
+   "enum": [
+    "researcher",
+    "verifier",
+    "synthesizer",
+    "architect",
+    "librarian"
+   ]
+  },
+  "path": {
+   "type": "string",
+   "pattern": "^knowledge/.*\\.md$"
+  },
+  "maturity": {
+   "type": "string",
+   "enum": [
+    "placeholder",
+    "draft",
+    "validated",
+    "approved"
+   ]
+  },
+  "reviewer": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "evidence": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "validation_result": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "approval": {
+   "type": [
+    "string",
+    "null"
+   ]
+  }
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "$comment": "One item of knowledge/registry/workstreams.json (R1-R10)",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "title",
+  "scope",
+  "validation",
+  "owner",
+  "status",
+  "outcome_path",
+  "outputs",
+  "requires_claims",
+  "human_tasks",
+  "blockers"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^R(10|[1-9])$"
+  },
+  "title": {
+   "type": "string",
+   "minLength": 1
+  },
+  "scope": {
+   "type": "string",
+   "minLength": 1
+  },
+  "validation": {
+   "type": "string",
+   "minLength": 1
+  },
+  "owner": {
+   "type": "string",
+   "enum": [
+    "researcher",
+    "verifier",
+    "synthesizer",
+    "architect",
+    "librarian"
+   ]
+  },
+  "status": {
+   "type": "string",
+   "enum": [
+    "NOT_STARTED",
+    "IN_PROGRESS",
+    "VALIDATION",
+    "COMPLETE",
+    "BLOCKED"
+   ]
+  },
+  "outcome_path": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "pattern": "^knowledge/.*\\.md$"
+  },
+  "outputs": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "pattern": "^D([1-9]|1[0-8])$"
+   }
+  },
+  "requires_claims": {
+   "type": "boolean"
+  },
+  "human_tasks": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "task",
+     "done"
+    ],
+    "properties": {
+     "task": {
+      "type": "string",
+      "minLength": 1
+     },
+     "done": {
+      "type": "boolean"
+     }
+    }
+   }
+  },
+  "blockers": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  }
+ }
+}

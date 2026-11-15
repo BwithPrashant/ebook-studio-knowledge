@@ -1,0 +1,104 @@
+{
+ "$comment": "One line of knowledge/registry/claims.jsonl",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "claim_id",
+  "workstream",
+  "critical",
+  "claim",
+  "source_url",
+  "source_type",
+  "published_at",
+  "accessed_at",
+  "snapshot",
+  "verification",
+  "validation_method",
+  "confidence_rationale",
+  "contradictions",
+  "implications",
+  "reviewer"
+ ],
+ "properties": {
+  "claim_id": {
+   "type": "string",
+   "pattern": "^R(10|[1-9])-CLM-\\d{3}$"
+  },
+  "workstream": {
+   "type": "string",
+   "pattern": "^R(10|[1-9])$"
+  },
+  "critical": {
+   "type": "boolean"
+  },
+  "claim": {
+   "type": "string",
+   "minLength": 1
+  },
+  "source_url": {
+   "type": "string",
+   "pattern": "^(https?://\\S+)?$"
+  },
+  "source_type": {
+   "type": "string",
+   "enum": [
+    "official_documentation",
+    "direct_test",
+    "independent",
+    "vendor_claim"
+   ]
+  },
+  "published_at": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "accessed_at": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "snapshot": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "verification": {
+   "type": "string",
+   "enum": [
+    "verified",
+    "vendor_claim",
+    "hypothesis",
+    "disputed",
+    "unverified"
+   ]
+  },
+  "validation_method": {
+   "type": "string"
+  },
+  "confidence_rationale": {
+   "type": "string"
+  },
+  "contradictions": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "implications": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "reviewer": {
+   "type": [
+    "string",
+    "null"
+   ]
+  }
+ }
+}
