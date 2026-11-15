@@ -15,4 +15,6 @@ Writes (ENG-002): max ~100 lines per tool call. Write, then verify with
 is not evidence; a tool call printed as text did not run. Keep a checkpoint
 in runs/; on restart resume from it, never regenerate verified units.
 2 retries per unit, then stop and ask.
+Sources (QA-002): for every page you cite run `python3 scripts/snapshot.py fetch <url>`
+and `snapshot.py quote`; never invent a snapshot, hash or date.
 Principles: SOLID, KISS, DRY, YAGNI. Cite by ID; do not copy text.
