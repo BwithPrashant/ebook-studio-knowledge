@@ -10,4 +10,9 @@ Rules: one session = one role = one task. Status APPROVED needs a human
 file in 00-governance/approvals/. No self-approval. No app features before
 P00-P02 approved. No spend, deploy, publish, force-push, protected merge.
 Prompts are not security: permissions are enforced by runtime, Git and CI.
+Writes (ENG-002): max ~100 lines per tool call. Write, then verify with
+`python3 scripts/artifact_check.py <file> ...`, then continue. Your own "done"
+is not evidence; a tool call printed as text did not run. Keep a checkpoint
+in runs/; on restart resume from it, never regenerate verified units.
+2 retries per unit, then stop and ask.
 Principles: SOLID, KISS, DRY, YAGNI. Cite by ID; do not copy text.
