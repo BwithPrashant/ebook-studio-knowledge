@@ -3,5 +3,5 @@
   "date": "2026-11-15",
   "result": "PASS"
  },
- "next_action": "Start P00b: plan research tracks R1-R8 (see phases/P00b.md)."
+ "next_action": "Run R1 then R5 researcher sessions per 01-research/p00b-research-plan.md."
 }
