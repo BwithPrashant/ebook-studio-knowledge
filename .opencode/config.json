@@ -1,0 +1,12 @@
+{
+  "skills": [
+    "web-research-skill"
+  ],
+  "agents": {
+    "research-agent": {
+      "name": "Research Agent",
+      "description": "Agent with enhanced web research capabilities",
+      "skills": ["web-research-skill"]
+    }
+  }
+}
