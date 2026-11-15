@@ -1,0 +1,15 @@
+claim_id: R1-CLM-001
+workstream: R1
+critical: false
+claim: ""
+source_url: ""
+source_type: official_documentation   # | direct_test | independent | vendor_claim
+published_at: null
+accessed_at: YYYY-MM-DD
+snapshot: ""            # path + sha256 of the saved copy
+verification: unverified  # verified|vendor_claim|hypothesis|disputed|unverified
+validation_method: ""
+confidence_rationale: ""
+contradictions: []
+implications: []
+reviewer: null
