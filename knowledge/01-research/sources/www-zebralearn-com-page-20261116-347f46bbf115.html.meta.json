@@ -1,0 +1,11 @@
+{
+ "url": "https://www.zebralearn.com/",
+ "final_url": "https://www.zebralearn.com/",
+ "status": 200,
+ "content_type": "text/html",
+ "bytes": 7370,
+ "sha256": "347f46bbf1153e3926ba6311c028db94889b281054a9dfda1a924169dd80d5e0",
+ "accessed_at": "2026-11-16",
+ "fetched_at": "2026-11-16T18:31:45+00:00",
+ "tool": "snapshot.py 0.1"
+}

@@ -1,0 +1,11 @@
+{
+ "url": "https://designrr.com/",
+ "final_url": "https://designrr.com/",
+ "status": 200,
+ "content_type": "text/html",
+ "bytes": 102,
+ "sha256": "95c4b9da5ac7788dcdccb308756e2b511a914231cd50eead6af6d7451892eba4",
+ "accessed_at": "2026-11-16",
+ "fetched_at": "2026-11-16T18:33:10+00:00",
+ "tool": "snapshot.py 0.1"
+}

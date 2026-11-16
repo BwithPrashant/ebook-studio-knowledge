@@ -1,0 +1,11 @@
+{
+ "url": "https://www.automateed.com/",
+ "final_url": "https://www.automateed.com/",
+ "status": 200,
+ "content_type": "text/html",
+ "bytes": 373504,
+ "sha256": "f6e2312e97180a61172e89911145dcb8c8b3a82f4aa5917dbceddab5af715852",
+ "accessed_at": "2026-11-16",
+ "fetched_at": "2026-11-16T18:30:54+00:00",
+ "tool": "snapshot.py 0.1"
+}

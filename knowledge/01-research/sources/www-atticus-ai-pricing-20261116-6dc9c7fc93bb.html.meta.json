@@ -1,0 +1,11 @@
+{
+ "url": "https://www.atticus.ai/pricing",
+ "final_url": "https://www.atticus.ai/pricing",
+ "status": 200,
+ "content_type": "text/html",
+ "bytes": 114,
+ "sha256": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023",
+ "accessed_at": "2026-11-16",
+ "fetched_at": "2026-11-16T18:31:38+00:00",
+ "tool": "snapshot.py 0.1"
+}

@@ -1,0 +1,11 @@
+{
+ "url": "https://reedsy.com",
+ "final_url": "https://reedsy.com",
+ "status": 200,
+ "content_type": "text/html",
+ "bytes": 146201,
+ "sha256": "524c830c59e1c06c1eb9c7daf80e2c9760d4570660f7cf36a0723f614aceda87",
+ "accessed_at": "2026-11-16",
+ "fetched_at": "2026-11-16T18:52:27+00:00",
+ "tool": "snapshot.py 0.1"
+}

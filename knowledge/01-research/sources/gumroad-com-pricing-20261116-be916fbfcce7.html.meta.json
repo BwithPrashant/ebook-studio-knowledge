@@ -1,0 +1,11 @@
+{
+ "url": "https://gumroad.com/pricing",
+ "final_url": "https://gumroad.com/pricing",
+ "status": 200,
+ "content_type": "text/html",
+ "bytes": 46899,
+ "sha256": "be916fbfcce7ff2d8c83a5359b85543b300bf2c378e5c844940d28dab10f334b",
+ "accessed_at": "2026-11-16",
+ "fetched_at": "2026-11-16T18:31:40+00:00",
+ "tool": "snapshot.py 0.1"
+}
